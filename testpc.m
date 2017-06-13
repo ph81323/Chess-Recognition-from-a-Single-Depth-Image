@@ -1,6 +1,7 @@
 function testpc(pc)
 %This is a general function for shwowing 3D pointclouds.
 %Input format can be Nx3 or NxMxK
+%This is written by YuAn (Dec 2016)
 if size(pc,3)~= 1
     size_x = size(pc,1);
     size_y = size(pc,2);
