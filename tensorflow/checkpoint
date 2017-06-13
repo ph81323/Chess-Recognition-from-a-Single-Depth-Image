@@ -1,0 +1,2 @@
+model_checkpoint_path: "itrichess_withbn_before_after.ckpt"
+all_model_checkpoint_paths: "itrichess_withbn_before_after.ckpt"

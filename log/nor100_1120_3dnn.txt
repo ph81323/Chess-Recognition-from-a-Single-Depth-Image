@@ -1,0 +1,11 @@
+=> Creating model from file: models/3dcnnnet.lua	
+=> Generating list of images	
+ | finding all validation images	
+ | finding all training images	
+ | saving list of images to /home/bonnie/Desktop/itrichess/gen/nor100_1120_3dnn_test.t7	
+=> Training epoch # 1	
+=> Creating model from file: models/3dcnnnet.lua	
+=> Creating model from file: models/3dcnnnet.lua	
+=> Training epoch # 1	
+=> Creating model from file: models/3dcnnnet.lua	
+=> Training epoch # 1	

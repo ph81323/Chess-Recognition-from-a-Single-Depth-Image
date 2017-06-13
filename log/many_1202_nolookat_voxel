@@ -1,0 +1,108 @@
+=> Creating model from file: models/voxnet_old.lua	
+=> Generating list of images	
+ | finding all validation images	
+ | finding all training images	
+ | saving list of images to /home/bonnie/Desktop/itrichess/gen/many_1202_nolookat_voxel.t7	
+=> Training epoch # 1	
+ConfusionMatrix:
+[[   46722     331     201    1105      69     172]   96.136% 	[class: bishop]
+ [     425   46651     207     572     475     270]   95.990% 	[class: king]
+ [     252      48   46836     975      48     441]   96.370% 	[class: knight]
+ [     336      56     410   52390       7     801]   97.019% 	[class: pawn]
+ [     179     593     105     330   31117      76]   96.040% 	[class: queen]
+ [      52      47     195     922       2   47382]]  97.494% 	[class: rook]
+ + average row correct: 96.508057912191% 
+ + average rowUcol correct (VOC measure): 93.451198935509% 
+ + global correct: 96.544871794872%
+ConfusionMatrix:
+[[     509       2     444      31       0      20]   50.596% 	[class: bishop]
+ [       0     541       1       0     188       0]   74.110% 	[class: king]
+ [       0       0     774       8       0       5]   98.348% 	[class: knight]
+ [       2      13       8      14       0    1084]   1.249% 	[class: pawn]
+ [       0     480       1       0     293       0]   37.855% 	[class: queen]
+ [       0       0       0       0       0     586]]  100.000% 	[class: rook]
+ + average row correct: 60.359725480278% 
+ + average rowUcol correct (VOC measure): 37.210816284642% 
+ + global correct: 54.2965627498%
+ * Finished epoch # 1     top1:  45.754  top5:   1.354
+	
+ * Best model 	45.753715498938	1.3535031847134	
+ Training loss 	3.4551282051282	0.17343304843305	
+ Testing loss 	45.753715498938	1.3535031847134	
+=> Training epoch # 2	
+ConfusionMatrix:
+[[   48342      20      39     126       9      64]   99.469% 	[class: bishop]
+ [      33   48389      23      50      41      64]   99.566% 	[class: king]
+ [      42      12   48405      70       8      63]   99.599% 	[class: knight]
+ [      49      23      43   53712       8     165]   99.467% 	[class: pawn]
+ [      15      45      15      45   32229      51]   99.472% 	[class: queen]
+ [      17       5      30     118       6   48424]]  99.638% 	[class: rook]
+ + average row correct: 99.535083770752% 
+ + average rowUcol correct (VOC measure): 99.095895886421% 
+ + global correct: 99.537393162393%
+ConfusionMatrix:
+[[     786       4     198       8       0      10]   78.131% 	[class: bishop]
+ [       0     538       1       0     191       0]   73.699% 	[class: king]
+ [       0       0     741      33       0      13]   94.155% 	[class: knight]
+ [       0      72      12      45       0     992]   4.014% 	[class: pawn]
+ [       0     172       1       0     601       0]   77.649% 	[class: queen]
+ [       0       0       0       0       0     586]]  100.000% 	[class: rook]
+ + average row correct: 71.274618556102% 
+ + average rowUcol correct (VOC measure): 51.678359073897% 
+ + global correct: 65.887290167866%
+ * Finished epoch # 2     top1:  34.010  top5:   0.836
+	
+ * Best model 	34.01008492569	0.8359872611465	
+ Training loss 	0.46260683760684	0.034188034188034	
+ Testing loss 	34.01008492569	0.8359872611465	
+=> Training epoch # 3	
+ConfusionMatrix:
+[[   48396      16      23      90      14      61]   99.580% 	[class: bishop]
+ [      20   48441      10      62      30      37]   99.673% 	[class: king]
+ [      25       6   48434      70       5      60]   99.658% 	[class: knight]
+ [      43      14      33   53775       9     126]   99.583% 	[class: pawn]
+ [      16      24      11      50   32262      37]   99.574% 	[class: queen]
+ [      10       6      23     114       4   48443]]  99.677% 	[class: rook]
+ + average row correct: 99.624313910802% 
+ + average rowUcol correct (VOC measure): 99.270338813464% 
+ + global correct: 99.626424501425%
+ConfusionMatrix:
+[[     820       2     162      10       0      12]   81.511% 	[class: bishop]
+ [       0     607       1       0     122       0]   83.151% 	[class: king]
+ [       0       0     765      11       0      11]   97.205% 	[class: knight]
+ [       1     105       1      15       0     999]   1.338% 	[class: pawn]
+ [       0     367       1       0     406       0]   52.455% 	[class: queen]
+ [       0       8       0       0       0     578]]  98.635% 	[class: rook]
+ + average row correct: 69.048980297521% 
+ + average rowUcol correct (VOC measure): 49.073482785995% 
+ + global correct: 63.76898481215%
+ * Finished epoch # 3     top1:  36.120  top5:   0.717
+	
+ Training loss 	0.3735754985755	0.03525641025641	
+ Testing loss 	36.119957537155	0.71656050955414	
+=> Training epoch # 4	
+ConfusionMatrix:
+[[   48451      11      20      60       5      53]   99.693% 	[class: bishop]
+ [      12   48456      12      58      22      40]   99.704% 	[class: king]
+ [      12       5   48468      64       5      46]   99.728% 	[class: knight]
+ [      11       3      30   53825       3     128]   99.676% 	[class: pawn]
+ [       7      16      11      57   32278      31]   99.623% 	[class: queen]
+ [       7       9      13     114       4   48453]]  99.698% 	[class: rook]
+ + average row correct: 99.687071641286% 
+ + average rowUcol correct (VOC measure): 99.396825830142% 
+ + global correct: 99.690527065527%
+ConfusionMatrix:
+[[     593       2     343      56       2      10]   58.946% 	[class: bishop]
+ [       4     545       1       0     180       0]   74.658% 	[class: king]
+ [       0       0     776       0       0      11]   98.602% 	[class: knight]
+ [       3      96       1      18       0    1003]   1.606% 	[class: pawn]
+ [       0     476       2       0     296       0]   38.243% 	[class: queen]
+ [       0       0       0       0       0     586]]  100.000% 	[class: rook]
+ + average row correct: 62.009125264982% 
+ + average rowUcol correct (VOC measure): 39.60882917357% 
+ + global correct: 56.235011990408%
+ * Finished epoch # 4     top1:  43.889  top5:   2.428
+	
+ Training loss 	0.30947293447293	0.03454415954416	
+ Testing loss 	43.889331210191	2.4283439490446	
+=> Training epoch # 5	

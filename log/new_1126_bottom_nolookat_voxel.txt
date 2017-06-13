@@ -1,0 +1,132 @@
+=> Creating model from file: models/voxnet_old.lua	
+=> Generating list of images	
+ | finding all validation images	
+ | finding all training images	
+ | saving list of images to /home/bonnie/Desktop/itrichess/gen/new_1126_bottom_nolookat_voxel.t7	
+=> Training epoch # 1	
+ConfusionMatrix:
+[[    5270     104       5      18       0       3]   97.593% 	[class: bishop]
+ [       0    5329      19      13      38       1]   98.685% 	[class: king]
+ [       4     159    5198      20       7      12]   96.259% 	[class: knight]
+ [      46     118       9    5200       0      27]   96.296% 	[class: pawn]
+ [       0     162       5       9    5224       0]   96.741% 	[class: queen]
+ [       2     106       2      15       0    5275]]  97.685% 	[class: rook]
+ + average row correct: 97.209877769152% 
+ + average rowUcol correct (VOC measure): 94.690387447675% 
+ + global correct: 97.20987654321%
+ConfusionMatrix:
+[[     522       0       7       4      17       0]   94.909% 	[class: bishop]
+ [       6     191      20       0     191       0]   46.814% 	[class: king]
+ [      48       0     372       1      25       8]   81.938% 	[class: knight]
+ [      34       0       2     643       1      11]   93.054% 	[class: pawn]
+ [       7       0      13       0     402       0]   95.261% 	[class: queen]
+ [      43       0       5      23      10     371]]  82.080% 	[class: rook]
+ + average row correct: 82.342499494553% 
+ + average rowUcol correct (VOC measure): 70.916002988815% 
+ + global correct: 84.010749076251%
+ * Finished epoch # 1     top1:  15.824  top5:   0.931
+	
+ * Best model 	15.824468085106	0.93085106382979	
+ Training loss 	2.7887462981244	0.20668805528134	
+ Testing loss 	15.824468085106	0.93085106382979	
+=> Training epoch # 2	
+ConfusionMatrix:
+[[    5399       0       1       0       0       0]   99.981% 	[class: bishop]
+ [       0    5400       0       0       0       0]   100.000% 	[class: king]
+ [       0       0    5399       0       1       0]   99.981% 	[class: knight]
+ [       0       0       0    5400       0       0]   100.000% 	[class: pawn]
+ [       0       0       1       0    5399       0]   99.981% 	[class: queen]
+ [       0       0       0       0       0    5400]]  100.000% 	[class: rook]
+ + average row correct: 99.990740418434% 
+ + average rowUcol correct (VOC measure): 99.981485803922% 
+ + global correct: 99.990740740741%
+ConfusionMatrix:
+[[     481       0      11       1      57       0]   87.455% 	[class: bishop]
+ [       1     168      20       0     219       0]   41.176% 	[class: king]
+ [      25       0     369       0      53       7]   81.278% 	[class: knight]
+ [      28       0       8     637       6      12]   92.185% 	[class: pawn]
+ [       3       0      12       0     407       0]   96.445% 	[class: queen]
+ [      23       0       5      14      31     379]]  83.850% 	[class: rook]
+ + average row correct: 80.398139854272% 
+ + average rowUcol correct (VOC measure): 68.703679740429% 
+ + global correct: 81.99529727914%
+ * Finished epoch # 2     top1:  17.819  top5:   0.532
+	
+ Training loss 	0.0092546890424482	0	
+ Testing loss 	17.81914893617	0.53191489361702	
+=> Training epoch # 3	
+ConfusionMatrix:
+[[    5398       0       1       1       0       0]   99.963% 	[class: bishop]
+ [       0    5392       0       1       7       0]   99.852% 	[class: king]
+ [       0       0    5400       0       0       0]   100.000% 	[class: knight]
+ [       0       0       0    5400       0       0]   100.000% 	[class: pawn]
+ [       0       5       0       0    5395       0]   99.907% 	[class: queen]
+ [       0       0       0       4       0    5396]]  99.926% 	[class: rook]
+ + average row correct: 99.941357970238% 
+ + average rowUcol correct (VOC measure): 99.882822235425% 
+ + global correct: 99.941358024691%
+ConfusionMatrix:
+[[     400       0      30       3     117       0]   72.727% 	[class: bishop]
+ [       0     115      20       0     273       0]   28.186% 	[class: king]
+ [       3       0     361       2      74      14]   79.515% 	[class: knight]
+ [      12       0       4     640      17      18]   92.619% 	[class: pawn]
+ [       0       0      13       0     409       0]   96.919% 	[class: queen]
+ [       0       0       5      13      53     381]]  84.292% 	[class: rook]
+ + average row correct: 75.709970792135% 
+ + average rowUcol correct (VOC measure): 63.230554262797% 
+ + global correct: 77.46053073564%
+ * Finished epoch # 3     top1:  22.307  top5:   0.465
+	
+ Training loss 	0.058613030602172	0	
+ Testing loss 	22.307180851064	0.46542553191489	
+=> Training epoch # 4	
+ConfusionMatrix:
+[[    5399       0       0       1       0       0]   99.981% 	[class: bishop]
+ [       1    5398       0       0       1       0]   99.963% 	[class: king]
+ [       0       0    5400       0       0       0]   100.000% 	[class: knight]
+ [       0       0       0    5400       0       0]   100.000% 	[class: pawn]
+ [       0       1       0       0    5399       0]   99.981% 	[class: queen]
+ [       0       0       0       0       0    5400]]  100.000% 	[class: rook]
+ + average row correct: 99.987653891246% 
+ + average rowUcol correct (VOC measure): 99.975312749545% 
+ + global correct: 99.987654320988%
+ConfusionMatrix:
+[[     365       0      65       5     115       0]   66.364% 	[class: bishop]
+ [       0      86      20       0     302       0]   21.078% 	[class: king]
+ [       0       0     375       0      75       4]   82.599% 	[class: knight]
+ [      11       0       7     640      16      17]   92.619% 	[class: pawn]
+ [       0       0      12       0     410       0]   97.156% 	[class: queen]
+ [       0       0       5      13      53     381]]  84.292% 	[class: rook]
+ + average row correct: 74.018169442813% 
+ + average rowUcol correct (VOC measure): 60.879164934158% 
+ + global correct: 75.814578434666%
+ * Finished epoch # 4     top1:  23.936  top5:   1.164
+	
+ Training loss 	0.012339585389931	0	
+ Testing loss 	23.936170212766	1.1635638297872	
+=> Training epoch # 5	
+ConfusionMatrix:
+[[    5400       0       0       0       0       0]   100.000% 	[class: bishop]
+ [       0    5400       0       0       0       0]   100.000% 	[class: king]
+ [       0       0    5400       0       0       0]   100.000% 	[class: knight]
+ [       0       0       0    5400       0       0]   100.000% 	[class: pawn]
+ [       0       0       0       0    5400       0]   100.000% 	[class: queen]
+ [       0       0       0       0       0    5400]]  100.000% 	[class: rook]
+ + average row correct: 100% 
+ + average rowUcol correct (VOC measure): 100% 
+ + global correct: 100%
+ConfusionMatrix:
+[[     375       0      55       3     117       0]   68.182% 	[class: bishop]
+ [       0     101      20       0     287       0]   24.755% 	[class: king]
+ [       0       0     375       1      70       8]   82.599% 	[class: knight]
+ [       8       0       7     644      17      15]   93.198% 	[class: pawn]
+ [       0       0      14       0     408       0]   96.682% 	[class: queen]
+ [       0       0       5      13      53     381]]  84.292% 	[class: rook]
+ + average row correct: 74.95143438379% 
+ + average rowUcol correct (VOC measure): 62.155629446109% 
+ + global correct: 76.721531743366%
+ * Finished epoch # 5     top1:  23.039  top5:   0.632
+	
+ Training loss 	0	0	
+ Testing loss 	23.038563829787	0.63164893617021	
+=> Training epoch # 6	

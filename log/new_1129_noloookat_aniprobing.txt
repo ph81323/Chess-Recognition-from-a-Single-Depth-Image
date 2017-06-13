@@ -1,0 +1,35 @@
+=> Creating model from file: models/aniprobing.lua	
+=> Generating list of images	
+ | finding all validation images	
+ | finding all training images	
+ | saving list of images to /home/bonnie/Desktop/itrichess/gen/new_1129_nolookat_aniprobing.t7	
+=> Training epoch # 1	
+=> Creating model from file: models/aniprobing.lua	
+=> Training epoch # 1	
+ConfusionMatrix:
+[[    5123       1       7      28      31     210]   94.870% 	[class: bishop]
+ [       0    5239       0       2     145      14]   97.019% 	[class: king]
+ [      60       0    4927      77      15     321]   91.241% 	[class: knight]
+ [       0       0       0    5388       2      10]   99.778% 	[class: pawn]
+ [       0      73       1       7    5306      13]   98.259% 	[class: queen]
+ [       0       0       0      10       2    5388]]  99.778% 	[class: rook]
+ + average row correct: 96.824072798093% 
+ + average rowUcol correct (VOC measure): 93.882463375727% 
+ + global correct: 96.824074074074%
+ConfusionMatrix:
+[[     355       0      45      28       0       0]   82.944% 	[class: bishop]
+ [     175     148      46       0       0       0]   40.108% 	[class: king]
+ [      22       0     299      76       0       1]   75.126% 	[class: knight]
+ [       0       0       0     673       0       0]   100.000% 	[class: pawn]
+ [     121       0     238       0      39       0]   9.799% 	[class: queen]
+ [       0       0      14     315       0      65]]  16.497% 	[class: rook]
+ + average row correct: 54.079067955414% 
+ + average rowUcol correct (VOC measure): 35.988522817691% 
+ + global correct: 59.360902255639%
+ * Finished epoch # 1     top1:  40.216  top5:   0.298
+	
+ * Best model 	40.215773809524	0.29761904761905	
+ Training loss 	3.1743583415597	0.16966929911155	
+ Testing loss 	40.215773809524	0.29761904761905	
+=> Training epoch # 2	
+FATAL THREAD PANIC: (dojob) /home/bonnie/torch/install/share/lua/5.1/threads/queue.lua:46: interrupted!	

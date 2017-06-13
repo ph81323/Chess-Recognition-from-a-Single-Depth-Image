@@ -1,0 +1,32 @@
+=> Creating model from file: models/3dcnnnet.lua	
+=> Generating list of images	
+ | finding all validation images	
+ | finding all training images	
+ | saving list of images to /home/bonnie/Desktop/itrichess/gen/new_1121_nolookat_3dcnn.t7	
+=> Training epoch # 1	
+ConfusionMatrix:
+[[    5363       8      10      10       2       7]   99.315% 	[class: bishop]
+ [       1    5368       7       5      18       1]   99.407% 	[class: king]
+ [       3      20    5350      13       6       8]   99.074% 	[class: knight]
+ [       9       4      20    5354       4       9]   99.148% 	[class: pawn]
+ [       0      22       4       3    5370       1]   99.444% 	[class: queen]
+ [       2      11      16      12       4    5355]]  99.167% 	[class: rook]
+ + average row correct: 99.25925831% 
+ + average rowUcol correct (VOC measure): 98.530429601669% 
+ + global correct: 99.259259259259%
+ConfusionMatrix:
+[[      30       0       0      34       0       0]   46.875% 	[class: bishop]
+ [       0       1       7       0      18       0]   3.846% 	[class: king]
+ [       0       0      24      40       0       0]   37.500% 	[class: knight]
+ [       0       0       0     243       0       0]   100.000% 	[class: pawn]
+ [       0       0       0       0      32       0]   100.000% 	[class: queen]
+ [       0       0       0       2       0      62]]  96.875% 	[class: rook]
+ + average row correct: 64.182692331572% 
+ + average rowUcol correct (VOC measure): 53.59575257947% 
+ + global correct: 79.513184584179%
+ * Finished epoch # 1     top1:  20.012  top5:   0.000
+	
+ * Best model 	20.012019230769	0	
+ Training loss 	0.74037512339585	0.070952615992103	
+ Testing loss 	20.012019230769	0	
+=> Training epoch # 2	
