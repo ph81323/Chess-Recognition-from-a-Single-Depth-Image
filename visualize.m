@@ -1,6 +1,6 @@
+%This is a function to generate animation of 3D model
 for el = -89 : .5 : -70
     az = 90;
-%     el = -90;
     view(az, el)
     drawnow
     frame = getframe(1);
