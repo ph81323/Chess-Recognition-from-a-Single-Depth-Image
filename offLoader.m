@@ -1,6 +1,5 @@
 function offobj = offLoader(filename)
-
-% function offobj = offLoader(filename)
+%Clone from https://github.com/s-gupta/utils/blob/master/renderer/offLoader.m
 
 offobj = struct();
 fid = fopen(filename, 'r');
